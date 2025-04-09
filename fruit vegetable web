@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="1">
+            <File firstVisibleLine="16" xOffset="0" scrollWidth="740" startPos="903" endPos="903" selMode="0" offset="0" wrapCount="1" lang="HTML" encoding="-1" userReadOnly="no" filename="C:\Users\CLIENT\Desktop\fruit vegetable website\index.html" backupFilePath="" originalFileLastModifTimestamp="-1800581398" originalFileLastModifTimestampHigh="31171575" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="81" xOffset="0" scrollWidth="6580" startPos="1764" endPos="1764" selMode="0" offset="0" wrapCount="1" lang="CSS" encoding="-1" userReadOnly="no" filename="C:\Users\CLIENT\Desktop\fruit vegetable website\style.css" backupFilePath="" originalFileLastModifTimestamp="1471842272" originalFileLastModifTimestampHigh="31171576" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="740" startPos="1266" endPos="1266" selMode="0" offset="0" wrapCount="1" lang="HTML" encoding="-1" userReadOnly="no" filename="C:\Users\CLIENT\Desktop\fruit vegetable website\Cart.html" backupFilePath="" originalFileLastModifTimestamp="1025102053" originalFileLastModifTimestampHigh="31171576" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

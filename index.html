@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fresh Fruits & Veggies</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>  
+    
+      <!-- Header -->
+   <header>
+    <div class="container">
+        <h1 class="logo">BOTHA FARMS</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li></ul> 
+		 		
+            </nav> 
+			<form class="newsletter">
+  <input type="email" placeholder="Enter your email" required>
+  <button type="submit">Subscribe</button>
+</form>
+
+            
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success"> 
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">BOTHA FARMS</a>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="btn btn-outline-light me-2" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-light" href="signup.html">Sign Up</a>
+        </li>
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+  </nav>
+    </div>
+</header>
+
+
+    <!-- Hero Section -->
+	<header class="text-white text-center bg-dark py-5" 
+        style="background-image: url('images/background.jpg'); background-size: cover; background-position: center;">
+  <div class="bg-dark bg-opacity-50 p-5 rounded">
+    <h1 class="display-4">Fresh & Organic Fruits and Vegetables</h1>
+    <p class="lead">Order the best quality produce at affordable prices.</p>
+    
+        <a href="#products" class="btn btn-outline-light btn-lg m-2">Shop Now</a> 
+      </div> 
+
+</header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Eat Fresh. Live Healthy.</h2>
+            <p>Your one-stop shop for organic fruits and vegetables.</p>
+            <a href="#products" class="btn btn-outline-light btn-lg m-2"></a>
+        </div>
+    </section>  
+	
+
+    <!-- Product Section -->
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            
+            <div class="product">
+                <img src="images/banana.jpg" alt="Banana">
+                <h3>Ripe Bananas</h3>
+                <p>k2.49 / kg</p>
+                <button onclick="addToCart('Bananas', 2.49)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/tomato.jpg" alt="Tomato">
+                <h3>Organic Tomatoes</h3>
+                <p>k2.99 / kg</p>
+                <button onclick="addToCart('Tomatoes', 1.99)">Add to Cart</button>
+            </div>
+			<div class="product">
+                <img src="images/chilli.jpg" alt="chilli">
+                <h3>chilli</h3>
+                <p>k5.99 / kg</p>
+                <button onclick="addToCart('chilli', 5.99)">Add to Cart</button>
+            </div>
+			<div class="product">
+                <img src="images/red onion.jpg" alt="red onion">
+                <h3>red onion</h3>
+                <p>k9.99 / kg</p>
+                <button onclick="addToCart('red onion', 9.99)">Add to Cart</button>
+            </div>
+			<div class="product">
+                <img src="images/green pepper.jpg" alt="green pepper">
+                <h3>green pepper</h3>
+                <p>k5.99 / kg</p>
+                <button onclick="addToCart('green pepper', 5.99)">Add to Cart</button>
+            </div>
+			<div class="product">
+                <img src="images/yellow paper.jpg" alt="yellow paper">
+                <h3>yellow paper</h3>
+                <p>19.99 / kg</p>
+                <button onclick="addToCart('yellow paper', 1.99)">Add to Cart</button>
+            </div> 
+			<div class="product">
+                <img src="images/watermalon.jpg" alt="watermalon">
+                <h3>watermalon</h3>
+                <p>k2.99 / kg</p>
+                <button onclick="addToCart('watermalon', 1.99)">Add to Cart</button>
+            </div>
+		        </div> 
+				<style> 
+				</div>
+	</body>
+</html>
+body {
+    background: url('images/background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+.hero {
+    background: url('images/background.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* adjust darkness */
+    z-index: 1;
+}
+
+{
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.1); /* optional soft background */
+    padding: 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px); /* Optional: softens bg slightly */
+}
+
+
+</style>
+    </section> 
+	
+
+    <!-- Footer -->
+    <footer> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact- BothaFarms Shop</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Optional: Bootstrap Icons (for nice icons) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <!-- Contact Section -->
+  <section class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="text-success">Contact</h1>
+      <p class="lead text-muted">We'd love to hear from you! Here are the best ways to reach us:</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Phone -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <i class="bi bi-telephone-fill fs-1 text-success mb-3"></i>
+          <h5 class="card-title">Phone</h5>
+          <p><a href="tel:+260XXXXXXXXX" class="text-decoration-none">+260776368476</a></p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <i class="bi bi-envelope-fill fs-1 text-success mb-3"></i>
+          <h5 class="card-title">Email</h5>
+          <p><a href="mailto:your.email@example.com" class="text-decoration-none">stevenbotha122@gmail.com</a></p>
+        </div>
+      </div>
+
+      <!-- Address -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <i class="bi bi-geo-alt-fill fs-1 text-success mb-3"></i>
+          <h5 class="card-title">Address</h5>
+          <p>[Mimosa Chilanga 1870], Lusaka, Zambia</p>
+        </div>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <i class="bi bi-whatsapp fs-1 text-success mb-3"></i>
+          <h5 class="card-title">WhatsApp</h5>
+          <p><a href="https://wa.me/260XXXXXXXXX" target="_blank" rel="noopener noreferrer" class="text-decoration-none">+260974746979</a></p>
+        </div>
+      </div>
+
+      <!-- Facebook -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 text-center p-4">
+          <i class="bi bi-facebook fs-1 text-primary mb-3"></i>
+          <h5 class="card-title">Facebook</h5>
+          <p><a href="[Your Facebook Page Link]" target="_blank" rel="noopener noreferrer" class="text-decoration-none">Our Facebook Page</a></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+    </body>
+</html>
+	
+        <p>&copy; 2025 Botha Farms Market. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

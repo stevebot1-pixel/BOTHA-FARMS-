@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart - BOTHA FARMS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">BOTHA FARMS</h1>
+            <nav> 
+			<a href="checkout.html" class="btn btn-primary">Go to Checkout</a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li></ul> 
+					<li><a href="Featured Products.html">Featured Products</a></li></ul> 
+					
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cart-bg text-white text-center py-5">
+  <div class="bg-dark bg-opacity-50 p-5 rounded container">
+    <h2 class="mb-4">Your Shopping Cart</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover table-light text-center">
+        <thead class="table-success">
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qty</th> 
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <!-- JS inserts cart rows -->
+        </tbody>
+      </table>
+    </div>
+    <h4 class="mt-4 text-white">Total: k<span id="total-price">0.00</span></h4>
+  </div>
+</section> 
+
+    <footer>
+        <p>&copy; 2025 Botha Farms Market. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
